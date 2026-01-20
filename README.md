@@ -6,6 +6,13 @@ Academic project for automated malignancy risk assessment of pulmonary nodules i
 
 > Note : Most of the documentation are in Portuguese, as this project was developed for the Laboratory of Artificial Intelligence and Data Science course (BSc in Artificial Intelligence and Data Science, University of Porto, 2025/2026).
 
+## Authors
+
+- Carolina Proença
+- Eduarda Neves
+- Elmano Vaz
+- Maria Morais
+
 ## Objective
 
 Develop a machine learning pipeline to classify pulmonary nodules as benign or malignant based on:
@@ -15,7 +22,7 @@ Develop a machine learning pipeline to classify pulmonary nodules as benign or m
 
 ## Data
 
-- **Source:** [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) (The Cancer Imaging Archive)
+- **Source:** [LIDC-IDRI](https://www.cancerimagingarchive.net/collection/lidc-idri/) (The Cancer Imaging Archive)
 - **Note:** The dataset is not included in this repository due to size constraints.
 
 ## Requirements
@@ -28,16 +35,6 @@ Develop a machine learning pipeline to classify pulmonary nodules as benign or m
   - Notebook: jupyter
 
 **Note:** GPU not required; CPU is sufficient for all experiments.
-
-## Project Structure
-
-```
-Lung-Cancer-Classification/
-├── Project_notebook.pdf                  # Work developed
-├── LabIACD_20252026_project1.pdf         # Assignment 
-├── consideraçoes_eticas_legais.pdf       # Ethical and Legal Considerations
-└── README.md                             # This file
-```
 
 ## Methodology & Results
 
@@ -61,7 +58,7 @@ Lung-Cancer-Classification/
 
 ### Responsible AI
 - **Use Case:** Academic and research purposes only
-- **Clinical Disclaimer:** This is NOT a clinical diagnostic tool and should not be used for patient diagnosis without proper medical supervision
+- **Clinical Disclaimer:** This is not a clinical diagnostic tool and should not be used for patient diagnosis without proper medical supervision
 - **Transparency:** All technical choices, preprocessing steps, and model parameters are fully documented
 - **Reproducibility:** Controlled environment with version-controlled dependencies
 
@@ -70,10 +67,13 @@ Lung-Cancer-Classification/
 - **Clinical Validation:** Real-world deployment requires clinical trials and regulatory approval
 - **Model Improvement:** Future work includes ensemble methods, deep learning approaches, and multi-center validation
 
-## Authors
+## Project Structure
 
-- Carolina Proença
-- Eduarda Neves
-- Elmano Vaz
-- Maria Morais
+```
+Lung-Cancer-Classification/
+├── Project_notebook.pdf                  # Work developed
+├── LabIACD_20252026_project1.pdf         # Assignment 
+├── consideraçoes_eticas_legais.pdf       # Ethical and Legal Considerations
+└── README.md                             # This file
+```
 
